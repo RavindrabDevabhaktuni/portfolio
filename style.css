@@ -664,8 +664,9 @@
             transition: none; 
         }
 
-        .about-container img {
-            width: 80vw;
+        .about-container img {4
+            transition: none;
+            /* width: 80vw;*/
         }
 
         .input-box input {
@@ -686,6 +687,10 @@
         height: 200px; 
     }
 
+        .education-image {
+            display: none;
+        }
+
 
     }
 
@@ -694,6 +699,9 @@
         header {
             padding: 1rem 1rem;
         }
+            .education-image {
+            display: none;
+                }
         }
             
 
